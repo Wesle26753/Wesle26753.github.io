@@ -20,11 +20,11 @@ null,
 {"id":18,"expanded":true,"name":"Deserted Meadow","order":14,"parentId":17,"scrollX":3276,"scrollY":1844},
 {"id":19,"expanded":false,"name":"Destroyed Mansion","order":15,"parentId":18,"scrollX":3276,"scrollY":1844},
 {"id":20,"expanded":true,"name":"bp1","order":24,"parentId":4,"scrollX":1738,"scrollY":2720},
-{"id":21,"expanded":true,"name":"bp2","order":25,"parentId":20,"scrollX":1769.4545454545455,"scrollY":2011.6363636363637},
+{"id":21,"expanded":true,"name":"bp2","order":25,"parentId":20,"scrollX":3573.818181818182,"scrollY":2011.6363636363637},
 {"id":22,"expanded":true,"name":"Swamp","order":16,"parentId":17,"scrollX":3276,"scrollY":1844},
 {"id":23,"expanded":true,"name":"Waterfall Forest","order":17,"parentId":22,"scrollX":3276,"scrollY":1844},
 {"id":24,"expanded":true,"name":"Ruins","order":18,"parentId":17,"scrollX":3276,"scrollY":1844},
 {"id":25,"expanded":false,"name":"Demon Castle 1F","order":19,"parentId":24,"scrollX":3276,"scrollY":1844},
 {"id":26,"expanded":false,"name":"Lava Cave","order":26,"parentId":21,"scrollX":3276,"scrollY":1844},
-{"id":27,"expanded":false,"name":"bp3","order":27,"parentId":21,"scrollX":2070.5454545454545,"scrollY":2011.6363636363637}
+{"id":27,"expanded":false,"name":"bp3","order":27,"parentId":21,"scrollX":3573.818181818182,"scrollY":2011.6363636363637}
 ]
