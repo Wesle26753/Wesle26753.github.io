@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Test</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        #page {
+            background-color: aquamarine;
+            width: 800px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            box-shadow: 4px 4px 5px black;
+            margin: auto;
+        }
+
+        #L1 {
+            background-color: aqua;
+            border: solid 3px;
+            border-color: blue black black blue;
+            font-style: italic;
+        }
+
+        #L2 {
+            background-color: aqua;
+            border: solid 3px;
+            border-color: blue black black blue;
+            font-style: italic;
+        }
+
+
+        #L3 {
+            background-color: aqua;
+            border: solid 3px;
+            border-color: blue black black blue;
+            font-style: italic;
+        }
+
+        #L4 {
+            background-color: aqua;
+            border: solid 3px;
+            border-color: blue black black blue;
+            font-style: italic;
+        }
+
+        #innerBlock {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: green;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 20px;
+        }
+
+        #innerMostBlock {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            padding: 10px;
+            background-color: blueviolet;
+            margin-bottom: 20px;
+            row-gap: 10px;
+            justify-content: space-around;
+        }
+
+        .right {
+            width: 30%;
+            float: right;
+            border: solid 3px black;
+            margin: 5px;
+            padding: 20px;
+            background-color: aliceblue;
+            max-height: 500px;
+        }
+
+        #h1 {
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .Left {
+            height: 200px;
+        }
+
+        .h2 {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="page">
+        <h1 id="h1">Heading in this box is Centered</h1>
+        <marquee direction="left" behavior="scroll" id="scrollText">scrolling text from right to left inside of a 800px
+            box</marquee>
+
+        <div id="innerBlock">
+            <div id="innerMostBlock">
+                <div id="L1" class="Left">
+                    <h2 class="h2">H2 in these boxes are BOLDER</h2>
+                    <p>Paragraph with italics inside a parent flexbox with a row-gap of 10px. It takes up 60% of the
+                        green box.</p>
+                </div>
+                <div id="L2" class="Left">
+                    <h2 class="h2">H2 in these boxes are BOLDER</h2>
+                    <p>Paragraph with italics inside a parent flexbox with a row-gap of 10px. It takes up 60% of the
+                        green box.</p>
+                </div>
+                <div id="L3" class="Left">
+                    <h2 class="h2">H2 in these boxes are BOLDER</h2>
+                    <p>Paragraph with italics inside a parent flexbox with a row-gap of 10px. It takes up 60% of the
+                        green box.</p>
+                </div>
+            </div>
+            <div class="right">
+                <div>
+                    <p>Link Sidebar with text not in italics because it is not part of the innerMostBlock or blog post
+                        (the purple box).</p>
+                    <p>The Link Sidebar takes up 30% of the parent/innerBlock (the green box).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
